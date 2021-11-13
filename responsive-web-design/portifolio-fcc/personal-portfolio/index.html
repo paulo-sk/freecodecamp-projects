@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo portifolio</title>
+    <link rel="shortcut icon" type="imagex/png" href="images/ninja-avatar-png.png">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar" id="navbar">
+        <a href="#welcome-section">home</a>
+        <a href="#about">skills</a>
+        <a href="#projects">portfolio</a>
+        <a href="#contact">contato</a>
+    </nav>
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="welcome-section">
+    <!-- somente no projeto do freecode, retirar depois -->
+    <h1 style="display: none;">text</h1>
+
+    <div class="image">
+        <img src="images/main-img.jpg" alt="">
+    </div>
+    
+    <div class="content">
+        <span class="hello">Oi, eu sou o <s>goku</s> </span>
+        <h3> I'M <span>Paulo</span></h3>
+        <p>Aspirante a webdev 😆</p>
+        <a href="#about" class="btn">skills</a>
+
+        <div class="social">
+            <a href="https://github.com/paulo-sk" target="_blank" id="profile-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/paulo-estev%C3%A3o-bb8a29187/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://steamcommunity.com/id/tryhardfail" target="_blank"><i class="fab fa-steam"></i></a>
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="about" id="about">
+
+    <div class="row">
+        
+        <div class="box">
+            <h3 class="title">skills</h3>
+
+            <div class="progress">
+                <h3> english<span>90%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3> html <span>95%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            
+            <div class="progress">
+                <h3> css <span>80%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> js <span>65%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> sass <span>50%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3> react <span>20%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="projects">
+
+    <h1 class="heading"> <span>my</span> portfolio </h1>
+
+    <div class="button-container">
+        <div class="btn" data-filter="all">all</div>
+        <div class="btn" data-filter="freecode">freecodecamp</div>
+    </div>
+
+    <div class="image-container">
+
+        
+        <div class="box">
+            <a href="https://codepen.io/paulo-sk/full/ExgZvpj" target="_blank"><img src="images/grid-holygrail.png" alt="">
+                <div class="info">
+                    <h3>Holly grail layout</h3>
+                </div>
+            </a>
+            
+        </div>
+
+        <div class="box freecode">
+            <a href="https://codepen.io/paulo-sk/full/RwZVVzd" target="_blank"><img src="images/tribute-page.png" alt="">
+                <div class="info">
+                    <h3>Tribute-page</h3>
+                </div>
+            </a>
+            
+        </div>
+
+        <div class="box freecode">
+            <a href="https://codepen.io/paulo-sk/full/vYJmQxw" target="_blank"><img src="images/survey-page.png" alt="">
+                <div class="info">
+                    <h3>survey form</h3>
+                </div>
+            </a>
+    
+        </div>
+
+        <div class="box freecode js">
+            <a href="https://codepen.io/paulo-sk/full/JjyrPmR" target="_blank"><img src="images/product-landing-page.png" alt="">
+                <div class="info">
+                    <h3>Product landing page</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="box freecode">
+            <a href="https://codepen.io/paulo-sk/full/NWvawpV" target="_blank"><img src="images/techincal-documentation-page.png" alt="">
+                <div class="info">
+                    <h3>techinical documentation page</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span>me</span> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>numero</h3>
+            <p>+5561981710290</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>paulobsb1337@gmail.com</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer">created by alguem aí e roubado por<span> paulosk</span> | "all rights reserved!" </div>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
